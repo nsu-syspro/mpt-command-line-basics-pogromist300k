@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find . -type f -name "*.txt" -exec basename {} \; | sort -d
+find . -name "*.txt" type f -exec basename {} \; | sort
